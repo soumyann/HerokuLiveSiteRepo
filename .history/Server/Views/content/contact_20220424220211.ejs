@@ -1,0 +1,67 @@
+<h2>Contact Us</h2>
+<div id="messageArea"></div>
+<div>
+  <p>
+    If you have any questions or would like to get into contact with us please fill out the form bellow.
+    We will reach out to you within 3-5 business days. Alternatively, you may contact us using the following:
+    <br></br>
+    <il>
+      <b>Email:</b> services@devweb.com
+    </il>
+    <il>
+      <b>Telephone:</b> (903)-030-0303
+    </il>
+    <il>
+      <b> Office Location:</b> 12 Office Street, Toronto
+    </il>
+
+  </p>
+</div>
+
+
+<div class="row justify-content-lg-center g-3">
+  <form class="form col-lg-6 col-md-10 col-sm-10">
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Full Name</span>
+      <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name Input"
+        aria-label="Full Name" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Contact Number</span>
+      <input id="contactNumber" name="contactNumber" type="tel" class="form-control"
+        aria-describedby="Contact Number Input" aria-label="Contact Number" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Email address</span>
+      <input id="emailAddress" name="emailAddress" type="email" class="form-control"
+        aria-describedby="Email Address Input" aria-label="Email Address" required>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">Your Message</span>
+      <textarea id="message" name="message" class="form-control" aria-label="Message Area" required></textarea>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input id="subscribeCheckbox" name="subscribeCheckbox" type="checkbox" class="form-check-input">
+      <label class="form-check-label" for="subscribeCheckbox">Subscribe to our Contact List</label>
+    </div>
+
+    <button id="sendButton" type="submit" class="btn btn-secondary"><i class="fas fa-envelope fa-lg"></i>
+      Send</button>
+    <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fas fa-undo fa-lg"></i>
+      Cancel</button>
+    <br /><br /><br />
+    <div style="border: 1px solid lightgrey;">
+      content
+    </div>
+  </form>
+
+  <div class="col-lg-4 col-md-4">
+    <a href="/contact-list" class="btn btn-secondary"><i class="fas fa-users fa-lg"></i> Show Contact
+      List</a>
+  </div>
+</div>
